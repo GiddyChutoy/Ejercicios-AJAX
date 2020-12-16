@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/ejercicio6.js"></script>
+    <link rel="stylesheet" href="../css/ejercicio6.css">
+    <title>Ejercicio 5</title>
+</head>
+
+<body>
+    <form action="http://localhost:3000/clientes" method="POST" id="form">
+        Nombre <input type="text" name="nombre" id="nombre"><br>
+        Apellidos <input type="text" name="apellidos" id="apellidos"> <br>
+        DNI <input type="text" name="DNI" id="dni"> <br>
+        Fecha de nacimiento <input type="date" name="fechaNac" id="fechaNac"> <br>
+        Sexo: <br> 
+        Mujer <input type="radio" name="sexo" id="mujer" value="M"> 
+        Hombre <input type="radio" name="sexo" id="hombre" value="H"> <br>
+        Preferencias: <br> 
+        Deportes de exterior<input type="checkbox" name="ext" id="ext" value="ext"> 
+        Deportes de equipo<input type="checkbox" name="equi" id="equi" value="equi"> 
+        Deportes individuales<input type="checkbox" name="indv" id="indv" value="indv"> 
+        Deportes de interior<input type="checkbox" name="int" id="int" value="int">
+        <br>
+        <input type="submit" value="Nuevo Cliente">
+    </form>
+    <div id="tablaClientes">
+        <table id="tabla">
+            <th>ID</th>
+            <th>Nombre y Apellidos</th>
+            <th>Fecha Nacimiento</th>
+            <th>Sexo</th>
+        </table>
+    </div>
+</body>
+
+</html>

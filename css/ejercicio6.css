@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#tablaClientes {
+    width: 60%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ 
+td, th {
+    border: 1px solid black;
+}
+
+form, form * {
+    margin: 5px;
+    padding: 2px;
+}
